@@ -1,31 +1,22 @@
 "use client";
-
+import TopBar from "@/components/topNavBar";
 import { Box, Card, CardContent, Container } from "@mui/material";
-const styles = `
-.teste {
-  background-image: url('https://genyo.com.br/wp-content/uploads/2023/06/ferramentas-para-rh-e-dp.webp');
-  background-color: red;
-  width: 100px;
-  height: 100px;
-}
-`;
+import "./styles.css";
+
+
 export default function Home() {
   return (
+  <>
+  <TopBar />
     <Container maxWidth="lg">
       <Box sx={{ my: 4 }}>
         <Card>
           <CardContent>
-            <h1>Home 1</h1>
-          </CardContent>
-        </Card>
-      </Box>
-      <Box sx={{ my: 4 }}>
-        <Card>
-          <CardContent>
-            <div className={styles}>TEste</div>
+            <a href="/colab"><div>Teste</div></a>
           </CardContent>
         </Card>
       </Box>
     </Container>
+    </>
   );
 }
