@@ -14,7 +14,7 @@ const urlHtml = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdRvSDqz8xz6om
 
 function Ramais() {
   const [ramais, setRamais] = React.useState([])
-  const handleEdit = (ramal)=> {window.alert(ramal.nome)}
+  const handleEdit = (r)=> {window.alert(r.nome)}
 
 
     useEffect(() => {
