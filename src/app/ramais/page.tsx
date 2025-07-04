@@ -7,10 +7,7 @@ import { Button, Container } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
 
 
-const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdRvSDqz8xz6om9fi37UVDM49LL7NXSdy938tRR7J4dsHXZmbPovCjVtx6fnZlHiemtQktZgqAW6ab/pub?output=csv";
-
-
-const urlHtml = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdRvSDqz8xz6om9fi37UVDM49LL7NXSdy938tRR7J4dsHXZmbPovCjVtx6fnZlHiemtQktZgqAW6ab/pubhtml";
+const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRI0McHrr2QH8PytwM5SbCQBX4uY59uqdf1nHmrmhkEudkouNKjiAhNrndcDQ9dpiaBzj9lawhjjamC/pub?output=csv";
 
 function Ramais() {
   const [ramais, setRamais] = React.useState([])
